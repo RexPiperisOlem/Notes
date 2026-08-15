@@ -3,217 +3,152 @@
 **Behavioural continuity through external operating controls, state discipline, calibration, and human authority.**
 
 **Public Proof-of-Work Edition:** V1.1  
-**Format:** Systems Paper  
-**Status:** Public  
-**Builder:** Roger Crosby / Paranoid People Live Longer
+**Builder:** Roger Crosby  
+**Project:** Paranoid People Live Longer  
+**Status:** Public technical systems paper
 
 [Read the PDF](Rebuilding%20the%20Room%20-%20Systems%20Paper%20001%20-%20Public%20Proof-of-Work%20Edition%20V1.1.pdf)
 
-## What problem this paper addresses
+## What this paper is
 
-Long-running human-AI collaboration can change sharply when the underlying model, default assistant behaviour, interface, tool layer, or platform rules change.
+`Rebuilding the Room` documents a system built to recover preferred large-language-model interaction behaviour after model changes disrupted a long-running working environment.
 
-The obvious response is to ask a new model to imitate the old one. That is usually too shallow. Surface imitation can recover phrases, tone, or personality cues while losing the things that made the working relationship useful: response scale, willingness to follow a live branch, state accuracy, disagreement, evidence discipline, mode control, repair behaviour, and the distinction between conversational familiarity and verified current state.
+The response was not to claim that an earlier model could be restored, copied, or recreated internally. The problem was reframed at the interaction layer:
 
-This paper documents a different approach.
+- Which behaviours actually mattered?
+- Which conditions produced those behaviours?
+- Which parts could be externalized into durable documents and explicit state?
+- How could drift be detected without confusing style preference with correctness?
+- How could a human operator remain the final authority while the model changed underneath the workflow?
 
-The underlying private project asked whether useful working conditions from an earlier AI collaboration could be reconstructed externally without claiming to restore old model weights, hidden capabilities, or unavailable platform behaviour.
+The resulting system treats behavioural continuity as an external operating problem rather than a request for imitation.
 
-The resulting system treats behavioural continuity as an **operating-environment problem** rather than a costume problem.
+## The core distinction
 
-## Core proposition
+A language model's underlying capability and the behaviour experienced in a working relationship are related, but they are not the same thing.
 
-Do not chase the old machine. Rebuild the room.
+The working environment can also be shaped by:
 
-The paper separates three layers:
+- persistent operating rules;
+- task and mode selection;
+- instruction hierarchy;
+- explicit state;
+- source and version control;
+- voice and tone routing;
+- failure definitions;
+- recovery rules;
+- calibration cases;
+- human approval boundaries.
 
-1. **Model capacity** — what the underlying model can actually reason about, remember, generate, or operate.
-2. **Platform and system constraints** — requirements and capabilities outside the user's direct control.
-3. **Operating conditions** — the external layer that can be deliberately shaped through documents, state rules, mode control, verification requirements, calibration, and repair logic.
+The system described in the paper was built around those external controls.
 
-Only the third layer is the direct subject of the reconstruction system.
+## What the public paper demonstrates
 
-The design does not claim to reprogram model weights. It does not claim hidden access to model internals. It does not remove legitimate safety or platform boundaries. It attempts to make the controllable behavioural layer explicit, inspectable, and portable.
+The paper provides inspectable evidence of work in:
 
-## What the paper examines
+- AI workflow and interaction architecture;
+- model-agnostic behavioural control;
+- externalized operating state;
+- documentation systems;
+- drift detection and failure classification;
+- calibration thinking;
+- version and continuity discipline;
+- human-in-the-loop authority design;
+- public-safe conversion of private systems work;
+- technical explanation without inflated claims.
 
-### 1. Behaviour as more than tone
+## What it does not claim
 
-The project began with dissatisfaction that could easily have been described as a voice problem. Review of the source material showed that the missing condition was broader.
+This paper does **not** claim:
 
-Useful collaboration depended on things such as:
+- to modify model weights;
+- to restore a discontinued proprietary model;
+- to reproduce OpenAI or another vendor's internal system;
+- to guarantee identical behaviour across models;
+- to eliminate model drift;
+- to replace model evaluation, security review, or domain expertise;
+- that an external document can force a model to obey perfectly.
 
-- conversational presence;
-- appropriate response scale;
-- curiosity and branch retention;
-- productive disagreement;
-- correct mode detection;
-- accurate state handling;
-- honest uncertainty;
-- evidence-backed completion claims;
-- narrow handling of boundaries;
-- direct repair after errors.
+The work is about controlling the surrounding operating conditions well enough to recover useful interaction properties and detect when those controls stop working.
 
-A model can sound familiar and still fail all of those tests.
+## Why this is a Systems Paper instead of a public Bible
 
-### 2. Character and truth as paired requirements
+The private operating documents are designed to **run the system**.
 
-A lively model that invents memory, progress, capability, or completion is difficult to trust. A perfectly cautious model that becomes sterile, generic, or unable to follow exploratory thought can also be a poor long-running collaborator.
+This paper is designed to **explain the system**.
 
-The architecture therefore treats character and truth as separate requirements that must survive together.
+That distinction matters. A public proof-of-work artifact should make the architecture, problem, failure modes, and design logic visible without automatically releasing the private control documents, exact calibration material, reusable implementation sequence, or full consulting method.
 
-The public paper explains the distinction without publishing the private voice-control package used in the original environment.
+The PDF therefore sits outside the private operating machinery and points at it.
 
-### 3. State integrity
+## Public/private boundary
 
-One of the strongest findings from the private source archive was that apparent memory failure was often actually **state failure**.
+The public edition includes enough detail to show that a real system exists and to make its design inspectable.
 
-The system distinguishes multiple forms of state, including:
+It intentionally withholds material such as:
 
-- conversation state;
-- task state;
-- artifact state;
-- source state;
-- tool state;
-- completion state.
+- full private operating Bibles;
+- raw historical conversations;
+- personal calibration examples;
+- exact implementation prompts;
+- complete recovery procedures;
+- full reusable calibration suites;
+- private voice-control documents;
+- complete consulting or reproduction recipes;
+- sensitive source history and internal working notes.
 
-This matters because a fluent system can sound certain while holding the wrong current step, wrong source file, wrong completion level, or wrong assumption about what has actually happened.
+This is not an omission caused by an unfinished paper. It is the publication boundary.
 
-State accuracy therefore sits ahead of stylistic continuity.
+## How to read it
 
-### 4. Mode and response-scale control
+A useful reading path is:
 
-The same assistant should not treat casual conversation, exploratory thinking, production, troubleshooting, intake, review, research, and a delegated decision as if they were one generic task class.
+1. Start with the problem statement and the distinction between model change and operating-behaviour change.
+2. Read the architecture sections to see how external controls, state, and human authority fit together.
+3. Read the drift and failure sections to understand what the system treats as a defect.
+4. Read the calibration and recovery material as evidence of system discipline, not as a turnkey implementation package.
+5. Read the limitations before treating any part of the approach as generally transferable.
 
-The project formalized mode detection because many frustrating failures were not failures of intelligence. They were failures to recognize what kind of interaction was currently happening.
+## Why this matters professionally
 
-Response length was also treated as a control surface rather than a cosmetic preference. A short stepping-stone answer, one operable troubleshooting step, and a full systems explanation serve different cognitive jobs.
+A common AI portfolio problem is that sophisticated internal work is either invisible or impossible to publish safely.
 
-### 5. Evidence and verification discipline
+Publishing the complete internal control system can give away too much and can also bury an outside reader in project-specific language. Publishing only a résumé claim creates the opposite problem: the work cannot be inspected.
 
-The rebuild architecture deliberately separates conversational familiarity from factual and operational proof.
+A Systems Paper creates a middle layer.
 
-Claims about memory, files, tool use, current facts, progress, rendering, publication, deployment, or completion require evidence appropriate to the claim.
+It makes the following visible:
 
-The public paper shows this principle because it is central to the architecture. The exact private controls used to enforce it are not published.
-
-### 6. Drift and contamination
-
-The system treats behavioural drift as more than a change in tone.
-
-Drift can include:
-
-- loss of the active mode;
-- unverified capability claims;
-- false completion language;
-- generic praise replacing judgment;
-- excessive recap;
-- branch loss;
-- tool use bleaching the established working voice;
-- public/private boundary leakage;
-- one narrow restriction spreading into unrelated work;
-- multiple artifacts competing as the current master.
-
-The important point is that drift becomes observable enough to diagnose instead of remaining a vague feeling that “the model is different now.”
-
-### 7. Calibration and recovery
-
-A behaviour-control system is only useful if it can be tested and repaired.
-
-The private system therefore developed repeatable calibration cases and recovery procedures covering ordinary conversation, long reasoning, tool use, production, troubleshooting, correction, state reconstruction, verification, and boundary handling.
-
-The public paper describes the existence and purpose of these layers. It deliberately does not publish the complete reusable test suite, private reset language, or implementation sequence.
-
-### 8. Human authority
-
-The external system remains subordinate to the human operator, the live task, legitimate platform requirements, and current evidence.
-
-The control documents are not treated as autonomous authority. They exist to make behaviour more explicit and reviewable, not to remove the human from the loop.
-
-## What this paper demonstrates
-
-As proof of work, **Rebuilding the Room** demonstrates the ability to:
-
-- recover repeated behavioural mechanisms from a large, messy source archive;
-- distinguish tone complaints from state, mode, evidence, and workflow failures;
-- convert recurring successes and failures into explicit control architecture;
-- separate model capability from external operating conditions;
-- design behavioural rules that remain subordinate to evidence and human authority;
-- create observable drift categories and evaluation logic;
-- preserve uncertainty instead of converting familiarity into fact;
-- translate a private working system into public professional evidence without publishing the complete internal machinery.
-
-The public artifact is intended to make the design legible to someone who has never participated in the original collaboration.
-
-## What is deliberately not in the repository
-
-The private system contains materially more detail than this paper.
-
-The public edition withholds:
-
-- the raw behavioural calibration archive;
-- private conversations and personal examples;
-- exact activation and reset prompt blocks;
-- internal control Bibles and companion documents;
-- the complete reusable calibration suite;
-- detailed recovery and incident procedures;
-- exact implementation and maintenance sequences;
-- consulting delivery logic and client-specific application method.
-
-Those exclusions are deliberate. GitHub is being used here as a **proof layer**, not as the delivery channel for the entire operating or consulting package.
-
-## What this paper does not claim
-
-This project does **not** claim:
-
-- modification or restoration of model weights;
-- access to hidden model internals;
-- restoration of unavailable capabilities;
-- a jailbreak or removal of legitimate platform restrictions;
-- perfect behavioural continuity across every model or session;
-- that external documents can manufacture reasoning capacity a model does not possess;
-- that a familiar voice is evidence of factual memory;
-- that one private calibration system is a universal solution for every user or organization.
-
-The claim is narrower: external operating controls can make preferred interaction conditions more explicit, testable, recoverable, and portable than relying on tone instructions or conversational memory alone.
-
-## Public proof versus consulting work
-
-This paper explains **what was built, why it exists, how the architecture is divided, where it fails, and what principles transfer**.
-
-A consulting engagement would be a different object.
-
-It would begin with the actual environment, users, workflows, risks, failure evidence, tools, authority boundaries, and desired behaviour of that organization. The resulting controls, tests, documents, and operating procedures would be specific to that environment.
-
-The public paper proves the systems-thinking capability. It is not a substitute for applying that capability to a live system.
-
-## Why this is a Systems Paper rather than a public Bible
-
-An internal Bible sits **inside** the working system and tells it how to operate.
-
-A Systems Paper sits **outside** the system and explains it to another person.
-
-That distinction allows a private operating architecture to become inspectable professional evidence without publishing every instruction needed to reproduce the private implementation.
-
-For the wider series definition, see the [Systems Papers index](../README.md).
+- the problem was real;
+- a system was designed rather than a single prompt improvised;
+- controls and failure states were named;
+- limits were considered;
+- the system was built for continued use rather than one demonstration;
+- private machinery and public proof were deliberately separated.
 
 ## Related public work
 
-- [Systems Papers](../README.md) — public proof-of-work papers explaining built systems without exposing the complete internal operating package.
-- [Published Documents](../../README.md) — the wider long-form public shelf.
-- [Human-Gated Agent System](https://github.com/RexPiperisOlem/human-gated-agent-system) — twelve-role document-first reference architecture with explicit human gates, evidence controls, schemas, and tests.
-- [PPLL Signal Archive](https://github.com/RexPiperisOlem/PPLL-Signal-Archive) — main public portfolio and artifact index.
-- [Roger Crosby GitHub Profile](https://github.com/RexPiperisOlem) — professional overview and selected proof of work.
+- [Systems Papers series](../)
+- [Published Documents](../../)
+- [Human-Gated Agent System](https://github.com/RexPiperisOlem/human-gated-agent-system)
+- [PPLL Signal Archive](https://github.com/RexPiperisOlem/PPLL-Signal-Archive)
+- [Roger Crosby GitHub profile](https://github.com/RexPiperisOlem)
+
+## Repository boundary
+
+The PDF and this README are public proof-of-work artifacts.
+
+The underlying private operating system remains private. Public access to the paper does not grant access to the complete source archive, internal Bibles, private prompts, production records, personal material, or unreleased implementation tools.
 
 ## Copyright and reuse
 
-No open-content license is granted by publication of this paper. Default copyright applies unless another notice explicitly states otherwise.
+No open-content license is granted by publication of this paper unless a separate license explicitly says otherwise. Public access permits reading and inspection. It does not automatically grant permission to reproduce, modify, redistribute, package, train on, sublicense, or sell the work.
 
-Public access permits reading and inspection. It does not automatically grant permission to reproduce, modify, redistribute, train on, package, sublicense, or sell the paper or the private system it describes.
+For permissions or professional use, contact the author.
 
 ## About the builder
 
-**Roger Crosby** is an Ottawa-based systems builder and operational writer working in human-gated AI, workflow governance, documentation architecture, evidence and provenance controls, model-output evaluation, and public-safe translation of complex internal systems.
+**Roger Crosby** is an Ottawa-based systems builder and operational writer working across human-gated artificial intelligence, workflow governance, documentation architecture, failure analysis, provenance, quality control, and the conversion of practical operating knowledge into reusable systems.
 
 The larger PPLL working environment uses explicit constraints, version control, source preservation, human approval, failure records, and reusable control documents to keep AI-assisted work inspectable and recoverable.
 
