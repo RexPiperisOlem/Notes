@@ -2,19 +2,16 @@
 
 **A public shelf of finished long-form work and systems proof by Roger Crosby.**
 
-This repository contains completed documents in artificial intelligence, cognition, operational systems, recipe-production methodology, and experimental literature. It also contains the **Systems Papers** series: public proof-of-work papers that explain the architecture of private systems without publishing the complete operating package.
+This repository contains completed documents in artificial intelligence, cognition, operational systems, recipe-production methodology, systems design, and experimental literature. They are published here as inspectable evidence of finished work rather than as unsupported claims on a résumé.
 
-The work is published here as inspectable evidence of finished work rather than as unsupported claims on a résumé.
-
-The documents are not all the same kind of object. Some are Systems Papers, some are Field Manuals, some are production systems, some are speculative analysis, and some are literary experiments. What connects them is the working method:
+The documents are not all the same kind of object. Some are Field Manuals, some are production systems, some are Systems Papers, some are speculative analysis, and some are literary experiments. What connects them is the working method:
 
 - large or messy source material is given a defined container;
 - claims are separated from metaphor and speculation;
 - structure is used to make the material navigable;
-- source, state, and version boundaries are made visible where they matter;
+- failure modes and control boundaries are made explicit when the subject requires them;
 - the document is completed as an artifact rather than left as an idea;
-- public proof is separated from the private production archive;
-- public descriptions stop at the strongest claim the released evidence can support.
+- public work is separated from the private production archive.
 
 **Available for remote contract work and project-based collaboration.**  
 Contact: [info@paranoidpeoplelivelonger.com](mailto:info@paranoidpeoplelivelonger.com)
@@ -23,7 +20,7 @@ Contact: [info@paranoidpeoplelivelonger.com](mailto:info@paranoidpeoplelivelonge
 
 | Document | Primary lane | What it demonstrates |
 | --- | --- | --- |
-| [Rebuilding the Room — Systems Paper 001](systems-papers/001-rebuilding-the-room/) | AI workflow governance / behavioural architecture | External behavioural control design, state integrity, mode and response-scale control, calibration, evidence discipline, and public-safe translation of a private system |
+| [Systems Papers](systems-papers/) | AI systems and documentation architecture | Public proof-of-work papers showing real systems, their architecture, failure modes, boundaries, and lessons without publishing the private operating machinery |
 | [The Dark Cognitive Manual](THE%20DARK%20COGNITIVE%20MANUAL.pdf) | Cognition and interpretation | Field Manual structure, behavioural observation, constraint-based writing, and practical synthesis |
 | [Sixty AI Futures](Sixty%20AI%20Futures.pdf) | Artificial-intelligence futures | Sustained scenario production, range, disciplined speculation, and systems thinking |
 | [The Recipe Writing Production Guide](THE%20RECIPE%20WRITING%20PRODUCTION%20GUIDE.pdf) | Operational food writing | Translation of kitchen experience into a repeatable production and quality-control system |
@@ -32,37 +29,17 @@ Contact: [info@paranoidpeoplelivelonger.com](mailto:info@paranoidpeoplelivelonge
 
 ## Systems Papers
 
-[Open the Systems Papers series](systems-papers/)
+The [Systems Papers](systems-papers/) are a separate public document family. They explain systems that were actually built, used, tested, revised, or recovered without publishing the full internal machinery that operates them.
 
-The Systems Papers are a separate public document family inside this repository.
-
-An internal operating Bible tells a system how to behave. A Systems Paper stands outside the machinery and explains the problem, architecture, design reasoning, failure modes, evaluation logic, limits, and transferable principles to another person.
-
-That distinction matters because some of the strongest work in the private PPLL archive is too detailed, personal, or commercially useful to publish as an operating manual. A résumé bullet is too thin to make the capability legible. A Systems Paper provides the middle layer: enough architecture to inspect the work without handing over the complete internal method.
+The purpose is **proof, not a consulting giveaway**. A Systems Paper should make the architecture legible enough that another person can understand the problem, the design decisions, the control logic, the failure modes, and the limits. It should not function as a complete reproduction kit for the private operating system behind the paper.
 
 ### [Systems Paper 001 — Rebuilding the Room](systems-papers/001-rebuilding-the-room/)
 
-A public proof-of-work paper about behavioural continuity across changing artificial-intelligence models.
+A public proof-of-work paper about recovering preferred large-language-model interaction behaviour through external operating controls rather than model-weight modification.
 
-The underlying project asked whether useful working conditions from an earlier long-running human-AI collaboration could be reconstructed externally without pretending to restore old model weights, hidden capabilities, or unavailable platform behaviour.
+The paper covers the problem created when model behaviour changes across versions, the distinction between model capability and operating behaviour, the role of state discipline and external control documents, drift and failure categories, calibration, human authority, and the boundary between public architectural proof and private implementation detail.
 
-The paper examines:
-
-- the distinction between model capacity, platform constraints, and controllable operating conditions;
-- behaviour as more than tone or persona;
-- character and truth as paired requirements;
-- state integrity across conversation, task, artifact, source, tool, and completion state;
-- mode detection and response-scale control;
-- evidence-backed claims about memory, tools, files, progress, and completion;
-- drift and contamination as observable failure categories;
-- high-level calibration and recovery logic;
-- explicit human authority and known limitations.
-
-**What it demonstrates:** recovering behavioural mechanisms from a large source archive, converting repeated failure into control architecture, separating familiarity from verified state, designing testable external behavioural controls, and translating a private system into public professional evidence without publishing the full implementation package.
-
-**What is withheld:** raw calibration transcripts, private examples, exact activation and reset blocks, internal control Bibles, the full reusable test suite, detailed implementation and maintenance sequences, and consulting-delivery machinery.
-
-The public claim is deliberately narrower than “reprogramming a model.” The paper documents **external behavioural control and reconstruction of operating conditions**. It does not claim modification of model weights or access to hidden model internals.
+**Demonstrates:** AI workflow architecture, behavioural continuity, external control systems, model-agnostic documentation, failure analysis, calibration thinking, public/private boundary design, and technical systems writing.
 
 ## Document guide
 
@@ -139,35 +116,31 @@ This shelf provides direct evidence that the builder can:
 
 - complete long documents rather than only generate fragments;
 - impose useful structure on large and ambiguous subjects;
+- explain system architecture without overstating implementation evidence;
 - maintain distinct voices across different types of work;
-- move between operational, analytical, speculative, literary, and systems-explanation forms;
+- move between operational, analytical, speculative, technical, and literary forms;
 - translate practical experience into reusable documentation;
-- extract repeated mechanisms from messy source material;
-- distinguish an internal operating system from the public proof used to describe it;
-- expose enough architecture for evaluation without publishing private implementation details;
-- state boundaries and avoid inflating the type of claim a document can support;
+- identify failure modes, boundaries, and authority relationships;
+- state limits and avoid inflating the type of claim a document can support;
 - package finished work so another person can inspect it directly.
 
-The documents do not prove enterprise deployment, professional certification, academic peer review, clinical authority, model-weight modification, or guaranteed commercial outcomes. They prove the existence, range, architecture, and completion of the work that is actually here.
+The documents do not prove enterprise deployment, professional certification, academic peer review, clinical authority, or guaranteed commercial outcomes. They prove the existence, range, architecture, and completion of the work that is actually here.
 
 ## How to use this repository
 
 For a fast review:
 
-1. Open **Rebuilding the Room — Systems Paper 001** for AI workflow governance, behavioural architecture, state integrity, and public-safe systems translation.
+1. Open **Systems Paper 001 — Rebuilding the Room** for AI systems architecture, behavioural control, failure analysis, and public-safe technical explanation.
 2. Open **The Recipe Writing Production Guide** for operational documentation and subject-matter translation.
 3. Open **The Dark Cognitive Manual** for Field Manual structure and practical synthesis.
 4. Open **Sixty AI Futures** for range, scenario thinking, and sustained production.
 5. Open **A Zoo at the End of Winter** for long-form voice and literary architecture.
 6. Use **Character Study** as an earlier comparison point rather than the main sample.
 
-For hiring or collaboration discussions, do not treat the repository as a request to read everything. Select the document closest to the problem being discussed.
-
-If the question is **“Can this person explain a complex private system without either flattening it into marketing copy or publishing the whole engine?”**, start with the Systems Papers.
+For hiring or collaboration discussions, do not treat the repository as a request to read everything. Select the artifact closest to the problem being discussed.
 
 ## Related working systems
 
-- [Systems Papers](systems-papers/) — public proof-of-work papers explaining built systems while preserving a deliberate boundary around private operating machinery.
 - [Human-Gated Agent System](https://github.com/RexPiperisOlem/human-gated-agent-system) — a twelve-role, document-first architecture with structured handoffs, evidence gates, approval levels, tests, and explicit human authority.
 - [Kaomoji Emotional Confusion Engine](https://github.com/RexPiperisOlem/kaomoji-engine) — a small tested Python artifact built around bounded symbolic mutation and honest technical description.
 - [PPLL Signal Archive](https://github.com/RexPiperisOlem/PPLL-Signal-Archive) — the main public index connecting released systems, documents, creative work, and the commercial PPLL door.
@@ -180,14 +153,14 @@ This repository contains finished public artifacts. It does not contain:
 - the complete private source archive;
 - raw conversations and personal records;
 - internal operating Bibles;
+- complete private implementation recipes behind the Systems Papers;
 - unreleased manuscripts;
 - private strategy or commercial records;
-- credentials, platform configuration, or customer data;
-- complete reusable consulting or implementation packages merely because a public Systems Paper describes the architecture they came from.
+- credentials, platform configuration, or customer data.
 
-The presence of a finished public document does not imply that all source material, calibration evidence, production methods, or operating controls are public.
+A public Systems Paper may describe a private system's architecture, purpose, failure modes, and lessons. It does not imply that the complete operating documents, control prompts, calibration material, client method, or source chain are public.
 
-The Systems Papers make this boundary especially explicit: **GitHub receives the proof layer. The private archive retains the operating layer.**
+The presence of a finished public document does not imply that all source material or production methods are public.
 
 ## Copyright and reuse
 
@@ -201,7 +174,6 @@ For permissions or professional use, contact the author directly.
 
 - human-gated artificial intelligence;
 - workflow governance and evaluation;
-- behavioural control through external operating documents;
 - documentation architecture;
 - operational and plain-language writing;
 - creative systems and experimental literature;
