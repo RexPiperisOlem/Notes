@@ -1,0 +1,63 @@
+name: Restore Systems Paper 001
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/restore-systems-paper-001.yml'
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PDF_PATH: systems-papers/001-rebuilding-the-room/Rebuilding the Room - Systems Paper 001 - Public Proof-of-Work Edition V1.1.pdf
+      EXPECTED_SHA256: 71a0139c35be9b76a25042be284573154cf0ac18a400242c498df8fcff0d0897
+      EXPECTED_BYTES: '116106'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Find successful historical publish commit
+        id: find
+        shell: bash
+        run: |
+          set -euo pipefail
+          REPO="${GITHUB_REPOSITORY}"
+          MATCH="$(gh api --paginate "repos/${REPO}/events?per_page=100" --jq '.[] | select(.type == "PushEvent") | .payload.commits[]? | select(.message == "Publish Systems Paper 001: Rebuilding the Room") | .sha' | head -n 1 || true)"
+          if [ -z "$MATCH" ]; then
+            MATCH="$(gh api -X GET search/commits -f q="repo:${REPO} \"Publish Systems Paper 001: Rebuilding the Room\"" --jq '.items[0].sha // empty' || true)"
+          fi
+          if [ -z "$MATCH" ]; then
+            echo "Could not locate the successful historical publish commit." >&2
+            exit 1
+          fi
+          echo "commit=$MATCH" >> "$GITHUB_OUTPUT"
+          echo "Found historical publish commit: $MATCH"
+
+      - name: Restore PDF from historical commit and verify it
+        shell: bash
+        run: |
+          set -euo pipefail
+          REF="${{ steps.find.outputs.commit }}"
+          mkdir -p "$(dirname "$PDF_PATH")"
+          gh api "repos/${GITHUB_REPOSITORY}/contents/${PDF_PATH}?ref=${REF}" --jq '.content' | tr -d '\n' | base64 --decode > "$PDF_PATH"
+          test "$(wc -c < "$PDF_PATH")" -eq "$EXPECTED_BYTES"
+          echo "$EXPECTED_SHA256  $PDF_PATH" | sha256sum -c -
+
+      - name: Commit restored PDF if needed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$PDF_PATH"
+          if git diff --cached --quiet; then
+            echo "PDF is already present and verified."
+            exit 0
+          fi
+          git commit -m "Restore verified Systems Paper 001 PDF"
+          git push
