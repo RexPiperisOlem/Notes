@@ -4,116 +4,110 @@
 
 The Systems Papers series sits between private operating machinery and public professional proof.
 
-A private operating Bible tells a system how to behave. A workflow package contains executable controls. A client deliverable applies a method to somebody else's environment. A Systems Paper does something different: it stands outside the machinery and explains the problem, architecture, design reasoning, failure modes, evaluation logic, limits, and transferable principles without publishing the private operating package itself.
+These papers are not product manuals, prompt packs, consulting playbooks, or complete reproduction kits. They exist to make a system legible without publishing the full machinery that runs it.
 
-The purpose of this series is not to turn internal systems into free consulting manuals. It is to make the underlying capability inspectable.
+A Systems Paper answers questions such as:
+
+- What problem existed?
+- What kind of system was built in response?
+- What architecture holds the system together?
+- Which controls, gates, or state distinctions matter?
+- What failed during development?
+- How is drift, error, or recovery handled?
+- What did the work demonstrate?
+- What remains intentionally private?
+
+The papers should reveal enough that a reader can inspect the thinking, system boundaries, and engineering discipline. They should stop before becoming a complete implementation recipe for the internal system or a substitute for project-specific consulting.
 
 ## Current papers
 
-| Paper | Subject | Primary lane | Public edition |
-| --- | --- | --- | --- |
-| [001 — Rebuilding the Room](001-rebuilding-the-room/) | Behavioural continuity across changing AI models | AI workflow governance / behavioural architecture | V1.1 |
+### [001 — Rebuilding the Room](001-rebuilding-the-room/)
 
-## What a Systems Paper is
+**Behavioural continuity through external operating controls, state discipline, calibration, and human authority.**
 
-A Systems Paper is appropriate when the underlying work contains more than an interesting idea. The system should have enough evidence behind it to describe:
+This paper describes a system built after preferred large-language-model interaction behaviour changed across model versions. Instead of treating the problem as a request for imitation, the work treated it as an operating-systems problem: identify the interaction conditions that mattered, externalize them, make state and authority explicit, classify drift, and build recovery and calibration around the resulting control layer.
 
-- a real problem or recurring class of failure;
-- an architecture designed to address it;
-- the observations or working evidence that shaped the architecture;
-- identifiable failure modes;
-- explicit controls or design boundaries;
-- some means of evaluation, calibration, or verification;
-- known limitations;
-- principles that transfer beyond the original PPLL environment.
+The public paper does **not** claim to modify model weights, restore a proprietary model, or reproduce private vendor internals.
 
-The paper explains those layers without reproducing every operating instruction required to rebuild the internal system.
+**What it demonstrates:**
 
-## What this series is not
+- model-agnostic behavioural control thinking;
+- external operating-state design;
+- failure and drift classification;
+- human-authority boundaries;
+- calibration as an operational discipline;
+- documentation architecture;
+- public-safe explanation of private systems work.
 
-Systems Papers are not:
+[Read the paper overview and PDF](001-rebuilding-the-room/)
 
-- internal PPLL operating Bibles;
-- prompt packs or activation scripts;
-- autonomous-agent packages;
-- customer-ready consulting deliverables;
-- complete implementation recipes;
-- claims that a public paper contains every source, test, rule, or internal control used in the private system.
+## What qualifies for this series
 
-The public document is the engine diagram, not the keys to the workshop.
+Not every internal document deserves a Systems Paper.
+
+A candidate should have:
+
+- a real problem rather than an invented demonstration;
+- an identifiable architecture;
+- actual development history, use, testing, or failure evidence;
+- meaningful controls or design decisions;
+- known failure modes or boundaries;
+- some method of evaluation, verification, or recovery;
+- lessons that transfer beyond one private project;
+- enough protected internal machinery that a public proof layer is useful.
+
+If all that exists is a clever document or an interesting idea, it belongs somewhere else.
 
 ## Public proof versus private machinery
 
-### Public in this series
+The series uses a deliberate boundary.
 
-Where the subject permits, a Systems Paper may disclose:
+Public papers may show:
 
-- the problem class;
-- the public-safe architecture;
-- major design distinctions;
-- failure categories;
-- high-level evaluation and calibration concepts;
-- evidence-handling principles;
-- known limitations;
-- lessons that generalize beyond PPLL;
-- enough structure for another person to assess the quality of the systems thinking.
+- the problem definition;
+- architecture at a useful level;
+- component relationships;
+- control categories;
+- failure classes;
+- design rationale;
+- representative examples;
+- limitations;
+- transferable lessons.
 
-### Intentionally withheld
+They do not automatically publish:
 
-Depending on the paper, the private layer may include:
+- private source archives;
+- complete internal Bibles;
+- exact implementation prompts;
+- full calibration suites;
+- personal operating material;
+- reusable consulting procedures;
+- hidden commercial mechanics;
+- credentials, customer data, or live configuration;
+- unreleased intellectual property.
 
-- exact prompt and activation blocks;
-- raw calibration transcripts and source archives;
-- private personal examples;
-- internal control Bibles;
-- exact reusable test suites;
-- detailed recovery and implementation sequences;
-- client-delivery logic;
-- consulting procedures, packaging, and commercial method;
-- unreleased PPLL intellectual property.
+The point is not secrecy for its own sake. The point is to distinguish **proof that a system exists** from **delivery of the system itself**.
 
-A withheld component is not evidence that the public claim is larger than the proof. It is a disclosure boundary. Public claims are kept to what the released artifact can support.
+## Relationship to other public work
 
-## Intended readers
+The Systems Papers complement, rather than replace, the other repositories.
 
-This series is designed to be useful to people evaluating work in:
-
-- AI workflow governance;
-- human oversight and responsible-AI operations;
-- model-output evaluation;
-- documentation and knowledge architecture;
-- workflow integrity and operational quality;
-- state, provenance, and evidence controls;
-- systems design;
-- process and failure analysis;
-- technical or operational hiring;
-- project collaboration where the problem is difficult to describe with a standard job title.
-
-A reader should not need to understand PPLL lore or internal vocabulary before the architecture becomes legible.
-
-## Relationship to the rest of the public work
-
-- [Published Documents](../) contains the wider shelf of finished long-form public work.
-- [Human-Gated Agent System](https://github.com/RexPiperisOlem/human-gated-agent-system) is an inspectable public reference architecture with schemas, tests, and role definitions.
-- [Kaomoji Emotional Confusion Engine](https://github.com/RexPiperisOlem/kaomoji-engine) is a bounded working code prototype.
-- [PPLL Signal Archive](https://github.com/RexPiperisOlem/PPLL-Signal-Archive) is the main public portfolio and orientation layer.
+- [Human-Gated Agent System](https://github.com/RexPiperisOlem/human-gated-agent-system) is a working public reference architecture.
+- [Published Documents](../) contains long-form manuals, analysis, creative work, and this Systems Papers series.
+- [PPLL Signal Archive](https://github.com/RexPiperisOlem/PPLL-Signal-Archive) is the main public portfolio and index.
 - [Roger Crosby's GitHub profile](https://github.com/RexPiperisOlem) provides the professional overview.
 
-These are different proof forms. The Systems Papers exist specifically to explain architectures that would otherwise remain either too private to publish or too difficult to evaluate from a résumé bullet.
+## Status
 
-## Copyright and reuse
+This is a growing document family. Numbering identifies the public series, not a promise that every internal PPLL system will be published.
 
-No open-content license is granted by the presence of these papers on GitHub. Unless a specific paper states otherwise, default copyright applies.
+The next papers are selected because the underlying system has earned an explanation, not because a publication quota needs filling.
 
-Public access permits reading and inspection. It does not automatically grant permission to reproduce, modify, redistribute, train on, package, sublicense, or sell the documents or the private systems they describe.
+## About the builder
 
-For permissions or professional use, contact the author.
+Systems Papers are written from systems built by **Roger Crosby** through Paranoid People Live Longer and related private working environments.
 
-## Builder
-
-**Roger Crosby**  
-Paranoid People Live Longer  
-Ottawa, Ontario, Canada
+The broader practice focuses on human-gated artificial intelligence, workflow governance, documentation architecture, failure analysis, provenance, public/private system boundaries, and the conversion of messy operating knowledge into inspectable structures.
 
 Contact: [info@paranoidpeoplelivelonger.com](mailto:info@paranoidpeoplelivelonger.com)  
 Portfolio: [PPLL Signal Archive](https://github.com/RexPiperisOlem/PPLL-Signal-Archive)  
