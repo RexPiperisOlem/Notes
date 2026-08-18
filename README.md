@@ -41,6 +41,16 @@ The paper covers the problem created when model behaviour changes across version
 
 **Demonstrates:** AI workflow architecture, behavioural continuity, external control systems, model-agnostic documentation, failure analysis, calibration thinking, public/private boundary design, and technical systems writing.
 
+### [Systems Paper 002 — From Job Search to Employment Intelligence](systems-papers/002-ai-employment-radar/)
+
+A public proof-of-work paper about converting a noisy AI job search into a constraint-first employment-intelligence system.
+
+The underlying private system was developed through sequential prototypes, beginning with a deliberately mixed batch of **30 live job listings**. The public edition shows the architecture and development logic without publishing the private scorecard, candidate constraints, detailed search configuration, test records, or operating Bible.
+
+The paper covers feasibility before relevance, the separation of content fit from employment fit, title-vocabulary discovery, evidence matching, truth-preserving translation, human-gated consequential action, failure-to-infrastructure learning, and the rule that a system should earn complexity through low-cost testing before formalization.
+
+**Demonstrates:** constraint-first decision architecture, AI-assisted evaluation, human oversight, evidence-backed capability translation, sequential prototyping, failure analysis, knowledge and vocabulary learning, claims discipline, and public/private boundary design.
+
 ## Document guide
 
 ### [The Dark Cognitive Manual](THE%20DARK%20COGNITIVE%20MANUAL.pdf)
@@ -131,11 +141,12 @@ The documents do not prove enterprise deployment, professional certification, ac
 For a fast review:
 
 1. Open **Systems Paper 001 — Rebuilding the Room** for AI systems architecture, behavioural control, failure analysis, and public-safe technical explanation.
-2. Open **The Recipe Writing Production Guide** for operational documentation and subject-matter translation.
-3. Open **The Dark Cognitive Manual** for Field Manual structure and practical synthesis.
-4. Open **Sixty AI Futures** for range, scenario thinking, and sustained production.
-5. Open **A Zoo at the End of Winter** for long-form voice and literary architecture.
-6. Use **Character Study** as an earlier comparison point rather than the main sample.
+2. Open **Systems Paper 002 — From Job Search to Employment Intelligence** for constraint-first decision architecture, evidence matching, human-gated evaluation, and sequential prototype learning.
+3. Open **The Recipe Writing Production Guide** for operational documentation and subject-matter translation.
+4. Open **The Dark Cognitive Manual** for Field Manual structure and practical synthesis.
+5. Open **Sixty AI Futures** for range, scenario thinking, and sustained production.
+6. Open **A Zoo at the End of Winter** for long-form voice and literary architecture.
+7. Use **Character Study** as an earlier comparison point rather than the main sample.
 
 For hiring or collaboration discussions, do not treat the repository as a request to read everything. Select the artifact closest to the problem being discussed.
 
