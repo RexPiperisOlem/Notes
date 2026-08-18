@@ -41,6 +41,27 @@ The public paper does **not** claim to modify model weights, restore a proprieta
 
 [Read the paper overview and PDF](001-rebuilding-the-room/)
 
+### [002 — From Job Search to Employment Intelligence](002-ai-employment-radar/)
+
+**Constraint-first AI work discovery, evidence matching, and human-gated career decisions.**
+
+This paper documents an employment-intelligence system that began as a private response to a noisy AI job market. Instead of treating retrieval volume as success, the system puts feasibility before nuanced ranking, separates content fit from operational employability, maps claims to evidence, learns vocabulary from near misses, and keeps consequential action under human authority.
+
+The underlying system was developed through sequential prototypes, beginning with a deliberately mixed batch of **30 live job listings**. The public edition preserves the validation story and architecture while withholding exact scoring mechanics, private constraints, candidate-specific evidence, search configuration, and operating documents.
+
+**What it demonstrates:**
+
+- constraint-first decision architecture;
+- human-gated AI-assisted evaluation;
+- evidence-backed capability translation;
+- failure-to-infrastructure thinking;
+- vocabulary and taxonomy learning;
+- sequential prototyping and earned complexity;
+- public/private system-boundary design;
+- claims discipline and technical systems writing.
+
+[Read the paper overview and GitHub edition](002-ai-employment-radar/)
+
 ## What qualifies for this series
 
 Not every internal document deserves a Systems Paper.
