@@ -51,6 +51,16 @@ The paper covers feasibility before relevance, the separation of content fit fro
 
 **Demonstrates:** constraint-first decision architecture, AI-assisted evaluation, human oversight, evidence-backed capability translation, sequential prototyping, failure analysis, knowledge and vocabulary learning, claims discipline, and public/private boundary design.
 
+### [Systems Paper 003 — AI Claims Audit Stack](systems-papers/003-ai-claims-audit-stack/)
+
+A public proof-of-work paper about auditing the process behind AI-supported claims rather than treating the visible output as self-explanatory.
+
+The public framework separates claim scope, evidence provenance, AI context, institutional power and incentives, measurement integrity, human oversight and contestability, auditability, and conclusion discipline. It also distinguishes evidence access from evidence quality and keeps material unknowns visible rather than filling them with assumptions.
+
+The public edition deliberately withholds internal agent specifications, detailed prompts, recursive routing logic, branch mechanics, field cards, ledger design, validation records, and the complete private operating package.
+
+**Demonstrates:** AI evaluation and claims auditing, provenance architecture, human oversight, contestability analysis, quantitative-claim discipline, lawful evidence-access design, bounded findings, institutional power analysis, and public/private system-boundary design.
+
 ## Document guide
 
 ### [The Dark Cognitive Manual](THE%20DARK%20COGNITIVE%20MANUAL.pdf)
@@ -142,11 +152,12 @@ For a fast review:
 
 1. Open **Systems Paper 001 — Rebuilding the Room** for AI systems architecture, behavioural control, failure analysis, and public-safe technical explanation.
 2. Open **Systems Paper 002 — From Job Search to Employment Intelligence** for constraint-first decision architecture, evidence matching, human-gated evaluation, and sequential prototype learning.
-3. Open **The Recipe Writing Production Guide** for operational documentation and subject-matter translation.
-4. Open **The Dark Cognitive Manual** for Field Manual structure and practical synthesis.
-5. Open **Sixty AI Futures** for range, scenario thinking, and sustained production.
-6. Open **A Zoo at the End of Winter** for long-form voice and literary architecture.
-7. Use **Character Study** as an earlier comparison point rather than the main sample.
+3. Open **Systems Paper 003 — AI Claims Audit Stack** for AI-claim auditing, provenance, auditability, human oversight and contestability, quantitative claims, institutional power, and bounded conclusions.
+4. Open **The Recipe Writing Production Guide** for operational documentation and subject-matter translation.
+5. Open **The Dark Cognitive Manual** for Field Manual structure and practical synthesis.
+6. Open **Sixty AI Futures** for range, scenario thinking, and sustained production.
+7. Open **A Zoo at the End of Winter** for long-form voice and literary architecture.
+8. Use **Character Study** as an earlier comparison point rather than the main sample.
 
 For hiring or collaboration discussions, do not treat the repository as a request to read everything. Select the artifact closest to the problem being discussed.
 
