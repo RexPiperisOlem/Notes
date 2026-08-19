@@ -1,4 +1,4 @@
-# Systems Paper 003 — AI Claims Audit Stack
+# Systems Paper 003 - AI Claims Audit Stack
 
 **Evidence-bounded auditing of claims made through, about, or with artificial intelligence.**
 
@@ -44,14 +44,14 @@ It is not a prompt pack, public audit checklist, certification scheme, or comple
 
 The public edition exposes eight functional domains:
 
-1. **Claim scope** — separate the actual propositions from labels, rhetoric, and undefined consequential terms.
-2. **Evidence provenance** — trace where supporting information came from, how it changed, and what may be missing.
-3. **AI context** — identify model, version, tools, date, runtime conditions, and other context that can materially affect a result.
-4. **Institutional context** — distinguish formal authority, practical leverage, incentives, and value transfer.
-5. **Measurement integrity** — inspect units, denominators, baselines, uncertainty, proxies, and generalization.
-6. **Human review and recourse** — determine whether review, override, correction, contestability, appeal, and remedy are meaningful in practice.
-7. **Auditability** — establish what evidence can legitimately be examined and what level of audit the available evidence permits.
-8. **Conclusion discipline** — state only what the evidence establishes while preserving material unknowns and scope limits.
+1. **Claim scope** - separate the actual propositions from labels, rhetoric, and undefined consequential terms.
+2. **Evidence provenance** - trace where supporting information came from, how it changed, and what may be missing.
+3. **AI context** - identify model, version, tools, date, runtime conditions, and other context that can materially affect a result.
+4. **Institutional context** - distinguish formal authority, practical leverage, incentives, and value transfer.
+5. **Measurement integrity** - inspect units, denominators, baselines, uncertainty, proxies, and generalization.
+6. **Human review and recourse** - determine whether review, override, correction, contestability, appeal, and remedy are meaningful in practice.
+7. **Auditability** - establish what evidence can legitimately be examined and what level of audit the available evidence permits.
+8. **Conclusion discipline** - state only what the evidence establishes while preserving material unknowns and scope limits.
 
 The exact internal routing, recursive questioning logic, specialist definitions, branch handling, stop conditions, ledger schema, and implementation details remain private.
 
@@ -75,7 +75,7 @@ The public framework therefore asks what the human can actually see, change, ove
 
 A right to appeal after the consequence has already occurred is not equivalent to a process that can prevent the consequence.
 
-The framework also asks whether exercising a right requires another actor — such as a clinician, employer, landlord, institution, lawyer, or representative — to act first.
+The framework also asks whether exercising a right requires another actor - such as a clinician, employer, landlord, institution, lawyer, or representative - to act first.
 
 ### Numbers do not explain themselves
 
@@ -105,11 +105,11 @@ The public edition rejects a single “trust score.” Different dimensions can 
 Public findings use bounded language such as:
 
 - **Supported**
-- **Supported — bounded**
+- **Supported - bounded**
 - **Partially supported**
 - **Not established**
 - **Contradicted**
-- **Unknown — material**
+- **Unknown - material**
 - **Methodologically weak**
 
 The framework also preserves evidentiary posture. An allegation, preliminary ruling, settlement, regulatory finding, admission, and final adjudicated finding are not interchangeable.
@@ -177,13 +177,13 @@ AI governance is easy to describe in abstract language. This paper provides some
 
 It demonstrates an operating philosophy built around a simple rule:
 
-> **When the evidence cannot support the desired conclusion, change the scope — not the evidence.**
+> **When the evidence cannot support the desired conclusion, change the scope - not the evidence.**
 
 ## Related public work
 
 - [Systems Papers series](../)
-- [Systems Paper 001 — Rebuilding the Room](../001-rebuilding-the-room/)
-- [Systems Paper 002 — From Job Search to Employment Intelligence](../002-ai-employment-radar/)
+- [Systems Paper 001 - Rebuilding the Room](../001-rebuilding-the-room/)
+- [Systems Paper 002 - From Job Search to Employment Intelligence](../002-ai-employment-radar/)
 - [Published Documents](../../)
 - [Human-Gated Agent System](https://github.com/RexPiperisOlem/human-gated-agent-system)
 - [PPLL Signal Archive](https://github.com/RexPiperisOlem/PPLL-Signal-Archive)
