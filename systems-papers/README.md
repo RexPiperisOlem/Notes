@@ -62,6 +62,28 @@ The underlying system was developed through sequential prototypes, beginning wit
 
 [Read the paper overview and GitHub edition](002-ai-employment-radar/)
 
+### [003 — AI Claims Audit Stack](003-ai-claims-audit-stack/)
+
+**Evidence-bounded auditing of claims made through, about, or with artificial intelligence.**
+
+This paper documents the public architecture of a private AI-claims audit framework built to examine the process behind AI-supported conclusions rather than treating the visible output as self-explanatory. It separates claim scope, evidence provenance, AI context, institutional power, measurement integrity, human oversight and recourse, auditability, and conclusion discipline.
+
+The public edition preserves the audit philosophy and major functional domains while withholding the internal agent specifications, detailed prompts, recursive routing logic, branch mechanics, field cards, ledger schema, validation archive, and other implementation material.
+
+**What it demonstrates:**
+
+- AI evaluation and claims auditing;
+- evidence and provenance architecture;
+- human oversight and contestability analysis;
+- institutional power and incentive mapping;
+- quantitative-claim discipline;
+- lawful evidence-access design;
+- bounded findings and accountability language;
+- public/private system-boundary design;
+- technical systems writing and human-gated AI governance.
+
+[Read the paper overview and GitHub edition](003-ai-claims-audit-stack/)
+
 ## What qualifies for this series
 
 Not every internal document deserves a Systems Paper.
