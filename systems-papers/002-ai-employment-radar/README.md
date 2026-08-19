@@ -1,4 +1,4 @@
-# Systems Paper 002 — From Job Search to Employment Intelligence
+# Systems Paper 002 - From Job Search to Employment Intelligence
 
 **Constraint-first AI work discovery, evidence matching, and human-gated career decisions.**
 
@@ -56,11 +56,11 @@ That sequence produced one of the paper's central rules:
 
 The paper exposes five high-level stages:
 
-1. **Feasibility gate** — remove candidates blocked by non-negotiable conditions before expensive analysis.
-2. **Domain interpretation** — determine what the role actually does rather than trusting the title.
-3. **Evidence alignment** — compare material requirements with truthful, inspectable proof.
-4. **Human decision** — keep consequential action under explicit human authority.
-5. **Feedback loop** — convert outcomes, false positives, near misses, and vocabulary changes into system updates.
+1. **Feasibility gate** - remove candidates blocked by non-negotiable conditions before expensive analysis.
+2. **Domain interpretation** - determine what the role actually does rather than trusting the title.
+3. **Evidence alignment** - compare material requirements with truthful, inspectable proof.
+4. **Human decision** - keep consequential action under explicit human authority.
+5. **Feedback loop** - convert outcomes, false positives, near misses, and vocabulary changes into system updates.
 
 The exact feasibility checks, rejection logic, scorecard, weights, thresholds, search configuration, and candidate-specific evidence library remain private.
 
@@ -196,7 +196,7 @@ A useful path is:
 ## Related public work
 
 - [Systems Papers series](../)
-- [Systems Paper 001 — Rebuilding the Room](../001-rebuilding-the-room/)
+- [Systems Paper 001 - Rebuilding the Room](../001-rebuilding-the-room/)
 - [Published Documents](../../)
 - [Human-Gated Agent System](https://github.com/RexPiperisOlem/human-gated-agent-system)
 - [PPLL Signal Archive](https://github.com/RexPiperisOlem/PPLL-Signal-Archive)
