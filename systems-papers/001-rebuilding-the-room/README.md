@@ -1,4 +1,4 @@
-# Systems Paper 001 — Rebuilding the Room
+# Systems Paper 001 - Rebuilding the Room
 
 **Behavioural continuity through external operating controls, state discipline, calibration, and human authority.**
 
