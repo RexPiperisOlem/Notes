@@ -33,7 +33,7 @@ The [Systems Papers](systems-papers/) are a separate public document family. The
 
 The purpose is **proof, not a consulting giveaway**. A Systems Paper should make the architecture legible enough that another person can understand the problem, the design decisions, the control logic, the failure modes, and the limits. It should not function as a complete reproduction kit for the private operating system behind the paper.
 
-### [Systems Paper 001 — Rebuilding the Room](systems-papers/001-rebuilding-the-room/)
+### [Systems Paper 001 - Rebuilding the Room](systems-papers/001-rebuilding-the-room/)
 
 A public proof-of-work paper about recovering preferred large-language-model interaction behaviour through external operating controls rather than model-weight modification.
 
@@ -41,7 +41,7 @@ The paper covers the problem created when model behaviour changes across version
 
 **Demonstrates:** AI workflow architecture, behavioural continuity, external control systems, model-agnostic documentation, failure analysis, calibration thinking, public/private boundary design, and technical systems writing.
 
-### [Systems Paper 002 — From Job Search to Employment Intelligence](systems-papers/002-ai-employment-radar/)
+### [Systems Paper 002 - From Job Search to Employment Intelligence](systems-papers/002-ai-employment-radar/)
 
 A public proof-of-work paper about converting a noisy AI job search into a constraint-first employment-intelligence system.
 
@@ -51,7 +51,7 @@ The paper covers feasibility before relevance, the separation of content fit fro
 
 **Demonstrates:** constraint-first decision architecture, AI-assisted evaluation, human oversight, evidence-backed capability translation, sequential prototyping, failure analysis, knowledge and vocabulary learning, claims discipline, and public/private boundary design.
 
-### [Systems Paper 003 — AI Claims Audit Stack](systems-papers/003-ai-claims-audit-stack/)
+### [Systems Paper 003 - AI Claims Audit Stack](systems-papers/003-ai-claims-audit-stack/)
 
 A public proof-of-work paper about auditing the process behind AI-supported claims rather than treating the visible output as self-explanatory.
 
@@ -150,9 +150,9 @@ The documents do not prove enterprise deployment, professional certification, ac
 
 For a fast review:
 
-1. Open **Systems Paper 001 — Rebuilding the Room** for AI systems architecture, behavioural control, failure analysis, and public-safe technical explanation.
-2. Open **Systems Paper 002 — From Job Search to Employment Intelligence** for constraint-first decision architecture, evidence matching, human-gated evaluation, and sequential prototype learning.
-3. Open **Systems Paper 003 — AI Claims Audit Stack** for AI-claim auditing, provenance, auditability, human oversight and contestability, quantitative claims, institutional power, and bounded conclusions.
+1. Open **Systems Paper 001 - Rebuilding the Room** for AI systems architecture, behavioural control, failure analysis, and public-safe technical explanation.
+2. Open **Systems Paper 002 - From Job Search to Employment Intelligence** for constraint-first decision architecture, evidence matching, human-gated evaluation, and sequential prototype learning.
+3. Open **Systems Paper 003 - AI Claims Audit Stack** for AI-claim auditing, provenance, auditability, human oversight and contestability, quantitative claims, institutional power, and bounded conclusions.
 4. Open **The Recipe Writing Production Guide** for operational documentation and subject-matter translation.
 5. Open **The Dark Cognitive Manual** for Field Manual structure and practical synthesis.
 6. Open **Sixty AI Futures** for range, scenario thinking, and sustained production.
@@ -163,10 +163,10 @@ For hiring or collaboration discussions, do not treat the repository as a reques
 
 ## Related working systems
 
-- [Human-Gated Agent System](https://github.com/RexPiperisOlem/human-gated-agent-system) — a twelve-role, document-first architecture with structured handoffs, evidence gates, approval levels, tests, and explicit human authority.
-- [Kaomoji Emotional Confusion Engine](https://github.com/RexPiperisOlem/kaomoji-engine) — a small tested Python artifact built around bounded symbolic mutation and honest technical description.
-- [PPLL Signal Archive](https://github.com/RexPiperisOlem/PPLL-Signal-Archive) — the main public index connecting released systems, documents, creative work, and the commercial PPLL door.
-- [Roger Crosby GitHub Profile](https://github.com/RexPiperisOlem) — professional orientation and selected proof of work.
+- [Human-Gated Agent System](https://github.com/RexPiperisOlem/human-gated-agent-system) - a twelve-role, document-first architecture with structured handoffs, evidence gates, approval levels, tests, and explicit human authority.
+- [Kaomoji Emotional Confusion Engine](https://github.com/RexPiperisOlem/kaomoji-engine) - a small tested Python artifact built around bounded symbolic mutation and honest technical description.
+- [PPLL Signal Archive](https://github.com/RexPiperisOlem/PPLL-Signal-Archive) - the main public index connecting released systems, documents, creative work, and the commercial PPLL door.
+- [Roger Crosby GitHub Profile](https://github.com/RexPiperisOlem) - professional orientation and selected proof of work.
 
 ## Public and private boundary
 
