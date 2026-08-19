@@ -21,7 +21,7 @@ The papers should reveal enough that a reader can inspect the thinking, system b
 
 ## Current papers
 
-### [001 — Rebuilding the Room](001-rebuilding-the-room/)
+### [001 - Rebuilding the Room](001-rebuilding-the-room/)
 
 **Behavioural continuity through external operating controls, state discipline, calibration, and human authority.**
 
@@ -41,7 +41,7 @@ The public paper does **not** claim to modify model weights, restore a proprieta
 
 [Read the paper overview and PDF](001-rebuilding-the-room/)
 
-### [002 — From Job Search to Employment Intelligence](002-ai-employment-radar/)
+### [002 - From Job Search to Employment Intelligence](002-ai-employment-radar/)
 
 **Constraint-first AI work discovery, evidence matching, and human-gated career decisions.**
 
@@ -62,7 +62,7 @@ The underlying system was developed through sequential prototypes, beginning wit
 
 [Read the paper overview and GitHub edition](002-ai-employment-radar/)
 
-### [003 — AI Claims Audit Stack](003-ai-claims-audit-stack/)
+### [003 - AI Claims Audit Stack](003-ai-claims-audit-stack/)
 
 **Evidence-bounded auditing of claims made through, about, or with artificial intelligence.**
 
