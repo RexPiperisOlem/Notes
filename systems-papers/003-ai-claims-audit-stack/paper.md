@@ -160,11 +160,11 @@ The public framework rejects a single “trust score.” Different dimensions ca
 | **Finding language** | **Public meaning** |
 |---|---|
 | Supported | Available evidence materially supports the claim within the stated scope. |
-| Supported — bounded | The claim is supported only within important limits that must remain attached to the conclusion. |
+| Supported - bounded | The claim is supported only within important limits that must remain attached to the conclusion. |
 | Partially supported | Some consequential elements are supported and others are not. |
 | Not established | The evidence available to the audit is insufficient to support the claim. |
 | Contradicted | Reliable evidence materially conflicts with the claim. |
-| Unknown — material | A missing fact could materially change the conclusion and cannot responsibly be assumed. |
+| Unknown - material | A missing fact could materially change the conclusion and cannot responsibly be assumed. |
 | Methodologically weak | The process has material design limitations even if the underlying conclusion might still be correct. |
 
 The framework also distinguishes evidentiary posture. An allegation, preliminary court ruling, settlement, regulatory finding, admission, and final adjudicated finding are not interchangeable.
@@ -222,7 +222,7 @@ The AI Claims Audit Stack is built around a simple idea: accountability improves
 
 The public edition documents the philosophy and scope of the system while deliberately withholding the operational machinery of the in-house implementation. Its purpose is to show what responsible AI-claim auditing should examine, what it should refuse to assume, and why auditability must be treated as part of accountability.
 
-> **Public principle:** When the evidence cannot support the desired conclusion, change the scope — not the evidence.
+> **Public principle:** When the evidence cannot support the desired conclusion, change the scope - not the evidence.
 
 ---
 
