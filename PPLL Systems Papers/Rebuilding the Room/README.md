@@ -6,8 +6,9 @@ Reconstructing useful AI collaboration across model changes without changing mod
 
 ## Read the paper
 
-- [PDF](PPLL%20Rebuilding%20the%20Room%20Systems%20Paper%20v1.2.pdf)
-- [DOCX](PPLL%20Rebuilding%20the%20Room%20Systems%20Paper%20v1.2.docx)
+- [Read on GitHub](PPLL%20Rebuilding%20the%20Room%20Systems%20Paper%20v1.2.md)
+
+The matching PDF and DOCX editions are preserved in the publication package with the same base filename.
 
 ## Collection
 
