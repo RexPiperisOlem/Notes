@@ -6,8 +6,9 @@ A systems view of how one human operator can supervise more business functions b
 
 ## Read the paper
 
-- [PDF](PPLL%20One%20Person%20Many%20Functions%20Systems%20Paper%20v1.0.pdf)
-- [DOCX](PPLL%20One%20Person%20Many%20Functions%20Systems%20Paper%20v1.0.docx)
+- [Read on GitHub](PPLL%20One%20Person%20Many%20Functions%20Systems%20Paper%20v1.0.md)
+
+The matching PDF and DOCX editions are preserved in the publication package with the same base filename.
 
 ## Collection
 
