@@ -1,13 +1,14 @@
-# Publications Under Review
+# Retired Holding Branch
 
-The public document shelf has been temporarily cleared.
+**This branch is retired and should not be treated as the current publication location.**
 
-All previously published documents and Systems Papers are being rechecked for content, privacy, version accuracy, accessibility, licensing, and public-release status before anything is returned here.
+It was used during the temporary review and reorganization of the PPLL Systems Papers. The approved public editions now live in the dedicated repository:
 
-No document currently listed in this repository should be treated as an approved public edition.
+## [PPLL Systems Papers](https://github.com/RexPiperisOlem/PPLL-Systems-Papers)
 
-For current public work, see:
+For current public work, use these repositories:
 
+- [PPLL Systems Papers](https://github.com/RexPiperisOlem/PPLL-Systems-Papers)
 - [Human-Gated Agent System](https://github.com/RexPiperisOlem/human-gated-agent-system)
 - [Kaomoji Emotional Confusion Engine](https://github.com/RexPiperisOlem/kaomoji-engine)
 - [PPLL Signal Archive](https://github.com/RexPiperisOlem/PPLL-Signal-Archive)
