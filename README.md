@@ -1,12 +1,12 @@
 # Notes
 
-This repository was used as a temporary holding page while public documents were being rechecked.
+**This repository is retired.** It was used as a temporary holding area while public documents were being rechecked and reorganized.
 
-The approved Systems Papers are now published here:
+No current publication should be treated as living here. The approved Systems Papers now live in the dedicated public collection:
 
 ## [PPLL Systems Papers](https://github.com/RexPiperisOlem/PPLL-Systems-Papers)
 
-For current public work, see:
+For current public work, use these repositories:
 
 - [PPLL Systems Papers](https://github.com/RexPiperisOlem/PPLL-Systems-Papers)
 - [Human-Gated Agent System](https://github.com/RexPiperisOlem/human-gated-agent-system)
